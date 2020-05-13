@@ -2,14 +2,22 @@
 #Mayor de edad es 18 años o mas
 #Si es mayor de 70 años, avisar que es un jubilado
 
-edad = 101
+edad = 100
 
 if edad >= 18:
     print("Usted es mayor de edad")
-    if edad > 65:
+
+    if edad >= 65:
         print("Usted es un jubilado")
-        if edad >= 100:
-            print("Bienvenida Mirta Legrand")
+
+
+    if edad >= 100:
+        print("Bienvenida Mirta Legrand")
+        edad = 2
+
+
+
+
 
 
 else:
