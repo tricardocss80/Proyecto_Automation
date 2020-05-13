@@ -8,20 +8,19 @@
 def promedio_materias(matematicas,literatura,fisica):
     return (matematicas + literatura + fisica)/3
 
-
 print("Bienvenido al sistema de calificaciones de la escuela")
 
-nombre = input("Ingrese su nombre por favor: ")
-apellido = input("Ingrese su apellido por favor: ")
-print("Como estas: " + nombre + apellido)
+nombre = input("Ingresa tu nombre por favor: ")
+apellido = input("Ingrese tu apellido por favor: ")
+print("Como estas: "+nombre, apellido)
 
-matematicas = float(input("Ingrese su nota de Matematicas por favor: "))
+matematicas = float(input("Ingresa tu nota de Matematicas por favor: "))
 
-literatura = float(input("Ingrese su nota de Literatura por favor: "))
+literatura = float(input("Ingresa tu nota de Literatura por favor: "))
 
-fisica = float(input("Ingrese su nota de Fisica por favor: "))
+fisica = float(input("Ingresa tu nota de Fisica por favor: "))
 
-print("*****INFORME*****")
+print("TU INFORME")
 
 promedio = promedio_materias(matematicas,literatura,fisica)
 print(promedio)
@@ -36,4 +35,4 @@ elif 4 <= promedio <= 5.99999:
 else:
     print("Insuficiente")
 
-print("Gracias por utilizar el sistema de promedios de la escuela, que tenga buen dia...")
+print("Gracias por utilizar el sistema de promedios de la escuela, que tengas buen dia...")
