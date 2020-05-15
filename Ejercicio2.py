@@ -1,6 +1,12 @@
 print("Elige tu propio camino")
 
 inicio = input("Escribe empezar para comenzar el programa: ")
+inicio = ""
+
+
+while(inicio != 'empezar'):
+    print("Debes ingresar la palabra empezar para iniciar el programa")
+
 
 while(inicio == 'empezar'):
     print("""¿Que camino queres elegir?

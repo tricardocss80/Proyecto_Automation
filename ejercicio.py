@@ -37,7 +37,7 @@ promedio = promedio_materias(matematica, literatura, fisica)
 
 print("Tu promedio es: " + str(promedio))
 
-if promedio > 6:
+if promedio >= 6:
     print("Aprobado")
     if promedio >= 9:
         print("Alumno destacado")
