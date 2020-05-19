@@ -7,29 +7,27 @@
 # Deben imprimirse los datos de cada compra y el precio total.
 
 
-#Nuestro programa se va a ejecutar hasta que nustra variable dada sea True
-
 programa = False
 i = 1
+
+Ford = 100000
+Chevrolet = 120000
+Fiat = 80000
+
+p2 = 50000
+p4 = 65000
+p5 = 78000
+
+blanco = 10000
+azul = 20000
+negro = 30000
+
 
 while programa == False:
     if i == 5:
         programa = True
     print("Cliente Nº" + str(i))
     i = i + 1
-
-
-    Ford = 100000
-    Chevrolet = 120000
-    Fiat = 80000
-
-    p2 = 50000
-    p4 = 65000
-    p5 = 78000
-
-    blanco = 10000
-    azul = 20000
-    negro = 30000
 
 
 
