@@ -23,6 +23,7 @@ azul = 20000
 negro = 30000
 
 
+
 while programa == False:
     if i == 5:
         programa = True
@@ -93,9 +94,10 @@ while programa == False:
 
 
     nombre = input("Ingrese por favor su nombre: ")
-    apellido = input("Incgrese por favor su apellido: ")
+    apellido = input("Ingrese por favor su apellido: ")
     marca = marca_input()
     puertas = puertas_input()
     color = color_input()
     precio = precio_marcas(marca) + precio_puertas(puertas) + precio_color(color)
     datos_del_comprador(nombre, apellido, marca, puertas, color, precio)
+
