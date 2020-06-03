@@ -30,7 +30,7 @@ class SearchCases(unittest.TestCase):
         driver.find_element_by_id('search_query_top').send_keys('T-SHIRTS')
         driver.find_element_by_name('submit_search').click()
         time.sleep(2)
-        self.assertTrue('T-SHIRTS' in driver.find_element_by_xpath("//span[@class='lighter']").text)
+        self.assertEqual(driver.find_element_by_xpath("//span[@class='lighter']").text, '"T-SHIRTS"')
         driver.close()
         driver.quit()
 
